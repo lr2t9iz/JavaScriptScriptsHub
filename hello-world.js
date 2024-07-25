@@ -6,5 +6,5 @@ for (; !enumerator.atEnd(); enumerator.moveNext()) {
     var computer = enumerator.item();
     var computerName = computer.Name;
     WScript.Echo("Hello, World! Your hostname is: " + computerName);
-    break; // Solo necesitamos el primer resultado
+    break; 
 }
